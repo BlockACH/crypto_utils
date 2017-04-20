@@ -7,7 +7,7 @@ import json
 from binascii import hexlify, unhexlify
 from pyelliptic.openssl import OpenSSL
 
-DEFAULT_CURVE = 'secp256k1'
+DEFAULT_CURVE = 'secp521r1'
 DEFAUL_CIPHERNAME = 'aes-256-cfb'
 
 
